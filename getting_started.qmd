@@ -1,0 +1,5 @@
+---
+title: Getting Started
+---
+
+Navigation tabs indicate how the current page.

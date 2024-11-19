@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Navigation tabs"
+  search: true
+  sidebar:
+    style: docked
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: getting_started.qmd
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: getting_started.qmd
+        text: "Getting Started"
+      - about.qmd
+
+format:
+  html:
+    theme: journal
+    css: styles.css
+    toc: true
+
+
+
